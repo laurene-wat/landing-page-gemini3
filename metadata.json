@@ -1,0 +1,5 @@
+{
+  "name": "Laurene CS Ops Portfolio",
+  "description": "A pixel-perfect recreation of the CS Ops portfolio landing page featuring a marquee, sticky navigation, service grid, and responsive layout. Built with React, Tailwind, and Framer Motion.",
+  "requestFramePermissions": []
+}
