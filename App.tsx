@@ -32,20 +32,20 @@ const App: React.FC = () => {
                   className="group relative cursor-pointer"
                   aria-label="Prendre rendez-vous"
                 >
-                <div className="absolute -inset-1 bg-gradient-to-r from-gray-200 to-gray-300 rounded-full blur opacity-25 group-hover:opacity-75 transition duration-200"></div>
-                <button className="relative flex items-center bg-main text-cream pl-3 pr-6 py-2 rounded-full gap-3 hover:scale-105 transition-transform duration-300 text-left shadow-xl">
-                  <img 
-                  src={`${import.meta.env.BASE_URL}images/thumbnail.jpg`} 
-                  alt="Avatar" 
-                  className="w-9 h-9 rounded-full border-2 border-cream/20"
-                  />
-                  <div className="flex flex-col">
-                    <span className="font-medium tracking-tight text-sm">Discussons-en</span>
-                    <span className="text-[10px] text-cream/60 font-light tracking-wide leading-none mt-0.5">Prenez rendez-vous en un clic</span>
-                  </div>
-                  </a>
-                </button>
-              </div>
+                  <div className="absolute -inset-1 bg-gradient-to-r from-gray-200 to-gray-300 rounded-full blur opacity-25 group-hover:opacity-75 transition duration-200"></div>
+                    <button className="relative flex items-center bg-main text-cream pl-3 pr-6 py-2 rounded-full gap-3 hover:scale-105 transition-transform duration-300 text-left shadow-xl">
+                      <img 
+                      src={`${import.meta.env.BASE_URL}images/thumbnail.jpg`} 
+                      alt="Avatar" 
+                      className="w-9 h-9 rounded-full border-2 border-cream/20"
+                      />
+                      <div className="flex flex-col">
+                        <span className="font-medium tracking-tight text-sm">Discussons-en</span>
+                        <span className="text-[10px] text-cream/60 font-light tracking-wide leading-none mt-0.5">Prenez rendez-vous en un clic</span>
+                      </div>
+                    </button>
+                </div>
+              </a>
             </div>
           </div>
 
