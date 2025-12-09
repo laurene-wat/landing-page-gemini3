@@ -17,7 +17,7 @@ const App: React.FC = () => {
           
           <div className="flex-1 flex flex-col justify-center items-center w-full max-w-5xl">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-normal font-serif leading-tight tracking-[-0.04em] text-main">
-              Je structure vos opérations pour que vos CSM se concentrent sur ce qui compte :{" "}
+              Je structure vos opérations pour que vos équipes se concentrent sur ce qui compte :{" "}
               <span className="font-serif italic font-normal tracking-[-0.04em] text-transparent bg-clip-text bg-gradient-to-r from-[#FE6502] via-[#6A41BA] to-[#127CAE] pr-2">vos clients</span>
             </h1>
 
@@ -389,7 +389,7 @@ const App: React.FC = () => {
                  {/* Intro Text */}
                  <div>
                    <h2 className="text-3xl md:text-4xl font-normal leading-snug tracking-[-0.02em] mb-8">
-                      Hello, moi c'est Laurène <span className="text-main/60">— j'aide les startups à mieux s'occuper de leurs clients grâce à des outils bien pensés.</span>
+                      Hello, moi c'est Laurène <span className="text-main/60">- j'aide les startups à mieux s'occuper de leurs clients grâce à des outils bien pensés.</span>
                    </h2>
 
                    <div className="space-y-8">
