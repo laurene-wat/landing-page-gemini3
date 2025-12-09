@@ -43,7 +43,7 @@ const App: React.FC = () => {
           {/* Logos */}
           <div className="w-full pb-6 pt-0 mt-auto overflow-hidden">
             <div className="flex flex-wrap justify-center gap-8 md:gap-16 items-center">
-              <img src={`${import.meta.env.BASE_URL}images/make-full-logo.svg`} alt="Make" className="h-6 md:h-8 w-auto object-contain opacity-40 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500" />
+              <img src={`${import.meta.env.BASE_URL}images/make-full-logo.png`} alt="Make" className="h-6 md:h-8 w-auto object-contain opacity-40 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500" />
               <img src={`${import.meta.env.BASE_URL}images/n8n-full-logo.svg`} alt="n8n" className="h-6 md:h-8 w-auto object-contain opacity-40 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500" />
               <img src={`${import.meta.env.BASE_URL}images/vitally-full-logo.svg`} alt="Vitally" className="h-6 md:h-8 w-auto object-contain opacity-40 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500" />
               <img src={`${import.meta.env.BASE_URL}images/hubspot-full-logo.svg`} alt="HubSpot" className="h-6 md:h-8 w-auto object-contain opacity-40 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500" />
