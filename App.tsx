@@ -22,9 +22,12 @@ const App: React.FC = () => {
             </h1>
 
             <div className="flex flex-col items-center mt-28">
-              <p className="font-sans font-medium text-main/60 text-sm leading-relaxed tracking-[-0.02em] mb-8">Vous avez un projet en tête ?</p>
+              <p className="font-sans font-medium text-main/60 text-sm leading-relaxed tracking-[-0.02em] mb-8">
+                Vous avez un projet en tête ?
+              </p>
+            
+              {/* Hero CTA: meeting booking */}
               <div className="group relative cursor-pointer">
-                {/* Hero CTA: meeting booking */}
                 <a
                   href="https://meet.laurene-wat.com/intro"
                   target="_blank"
@@ -33,7 +36,7 @@ const App: React.FC = () => {
                   aria-label="Prendre rendez-vous"
                 >
                   <div className="absolute -inset-1 bg-gradient-to-r from-gray-200 to-gray-300 rounded-full blur opacity-25 group-hover:opacity-75 transition duration-200"></div>
-                
+            
                   <div className="relative flex items-center bg-main text-cream pl-3 pr-6 py-2 rounded-full gap-3 hover:scale-105 transition-transform duration-300 text-left shadow-xl">
                     <img
                       src={`${import.meta.env.BASE_URL}images/thumbnail.jpg`}
@@ -49,8 +52,9 @@ const App: React.FC = () => {
                     <MoveUpRight className="w-4 h-4 text-cream/80" />
                   </div>
                 </a>
+              </div>
             </div>
-          </div>
+
 
           {/* Logos */}
           <div className="w-full pb-6 pt-0 mt-auto overflow-hidden">
