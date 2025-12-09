@@ -378,7 +378,7 @@ const App: React.FC = () => {
                    <img 
                    src={`${import.meta.env.BASE_URL}images/laurene.jpg`}  
                    alt="Laurène Watrelot sur scène"
-                   className="relative rounded-xl w-full object-cover aspect-[4/5] grayscale hover:grayscale-0 transition-all duration-500 border-4 border-white rotate-2 shadow-[0_1px_4px_0_rgba(0,0,0,0.1)]" 
+                   className="relative rounded-xl w-full object-cover aspect-[4/5] transition-transform duration-500 border-4 border-white -rotate-2 hover:rotate-0 shadow-[0_1px_4px_0_rgba(0,0,0,0.1)]" 
                    />
                 </div>
               </div>
