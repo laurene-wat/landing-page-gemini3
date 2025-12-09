@@ -437,13 +437,16 @@ const App: React.FC = () => {
                     <div className="text-xs uppercase tracking-[0.01em] font-medium font-mono text-main/60">/ Conférences</div>
                   </div>
                   <div className="space-y-1 px-2 pb-2">
-                    <a href="#" className="block bg-white rounded-lg shadow-[0_1px_4px_0_rgba(0,0,0,0.1)] hover:shadow-md transition-all group border border-transparent px-2 py-3">
+                    <div className="block bg-white rounded-lg shadow-[0_1px_4px_0_rgba(0,0,0,0.1)] border border-transparent px-2 py-3">
                       <div className="flex justify-between items-start">
-                        <h4 className="font-medium text-sm text-main group-hover:underline decoration-1 underline-offset-4 transition-all tracking-[-0.02em]">Just For Fun — Quand Le No‑Code Ne Se Prend Pas Au Sérieux</h4>
-                        <MoveUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-opacity text-main/60" />
+                        <h4 className="font-medium text-sm text-main tracking-[-0.02em]">
+                          Just For Fun — Quand le No‑Code ne se prend pas au sérieux
+                        </h4>
                       </div>
-                      <p className="text-sm font-medium text-main/60 mt-1 tracking-[-0.02em]">Grande Journée par No‑Code France, 2025</p>
-                    </a>
+                      <p className="text-sm font-medium text-main/60 mt-1 tracking-[-0.02em]">
+                        Grande Journée par No‑Code France, 2025
+                      </p>
+                    </div>
 
                     <a href="#" className="block bg-white rounded-lg shadow-[0_1px_4px_0_rgba(0,0,0,0.1)] hover:shadow-md transition-all group border border-transparent px-2 py-3">
                       <div className="flex justify-between items-start">
