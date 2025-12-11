@@ -455,7 +455,7 @@ const App: React.FC = () => {
                       className="block bg-white rounded-lg shadow-[0_1px_4px_0_rgba(0,0,0,0.1)] hover:shadow-md transition-all group border border-transparent px-2 py-3"
                     >
                       <div className="flex justify-between items-start">
-                        <h4 className="font-medium text-sm text-main group-hover:underline decoration-1 underline-offset-4 transition-all tracking-[-0.02em]">Ne Laissez Pas Les Impayés Freiner Votre Business!</h4>
+                        <h4 className="font-medium text-sm text-main group-hover:underline decoration-1 underline-offset-4 transition-all tracking-[-0.02em]">Ne laissez pas les impayés freiner votre business !</h4>
                         <MoveUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-opacity text-main/60" />
                       </div>
                       <p className="text-sm font-medium text-main/60 mt-1 tracking-[-0.02em]">No‑Code France, Table Ronde #10, 2023</p>
