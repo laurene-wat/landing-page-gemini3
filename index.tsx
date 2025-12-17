@@ -8,12 +8,8 @@ if (!rootElement) {
   throw new Error("Could not find root element to mount to");
 }
 
-const root = ReactDOM.createRoot(rootElement);
-root.render(
+ReactDOM.createRoot(rootElement).render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
 );
-
-// Signal au plugin de pré‑rendu que le DOM est prêt
-document.dispatchEvent(new Event('app-mounted'));
