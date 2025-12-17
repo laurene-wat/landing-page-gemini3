@@ -1,5 +1,5 @@
 # .github/workflows/deploy.yml
-name: Deploy Vite site to GitHub Pages
+name: Build and Deploy (Vite + Prerender) to GitHub Pages
 
 on:
   push:
@@ -28,11 +28,13 @@ jobs:
           node-version: 20
 
       - name: Install deps
-        run: npm install
+        run: npm ci
 
-      - name: Build
+      - name: Build (Vite) + Prerender
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # Laisse Puppeteer télécharger Chromium (nécessaire pour vite-plugin-prerender)
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: "false"
         run: npm run build
 
       - name: Upload artifact
